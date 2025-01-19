@@ -19,10 +19,10 @@ jobs:
           node-version: 23
 
       - name: Install dependencies
-        run: pnpm install --force
+        run: npm install --force
 
       - name: Build project
-        run: pnpm build
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
