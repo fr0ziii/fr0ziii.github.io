@@ -2,6 +2,7 @@
   "name": "fr0ziii",
   "type": "module",
   "version": "0.0.2",
+  "packageManager": "pnpm@9.6.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
