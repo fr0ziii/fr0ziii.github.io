@@ -14,7 +14,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://fr0ziii.github.io/",
+  site: "https://fr0ziii.github.io",
   integrations: [sitemap(), tailwind(), robotsTxt({
     sitemap: [
       "https://gianmarcocavallo.com/sitemap-index.xml",
