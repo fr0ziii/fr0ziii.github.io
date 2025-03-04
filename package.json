@@ -1,0 +1,42 @@
+{
+  "name": "portfolio",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "deploy:vercel": "vercel deploy",
+    "deploy:cloudflare": "astro build && wrangler pages deploy ./dist"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^5.1.1",
+    "@astrojs/markdown-remark": "^5.1.1",
+    "@astrojs/vercel": "^7.8.1",
+    "@tailwindcss/typography": "^0.5.13",
+    "@astrojs/mdx": "^3.1.2",
+    "@fancyapps/ui": "^5.0.36",
+    "@iconify-json/mdi": "^1.2.2",
+    "@iconify-json/ri": "^1.2.5",
+    "@iconify-json/simple-icons": "^1.2.18",
+    "@playform/compress": "^0.1.1",
+    "astro": "4.15.11",
+    "astro-icon": "^1.1.1",
+    "gsap": "^3.12.5",
+    "hotkeypad": "0.1.1",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.8",
+    "prettier-plugin-astro": "^0.14.1",
+    "rimraf": "^6.0.1",
+    "wrangler": "^3.80.0",
+    "daisyui": "^4.12.10",
+    "tailwind-scrollbar": "^3.1.0"
+  }
+}

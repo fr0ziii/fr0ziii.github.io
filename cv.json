@@ -1,0 +1,527 @@
+{
+  "analyticsCode": "",
+  "basics": {
+    "name": "David Iglesias",
+    "label": "Software Engineer",
+    "animated_main_label": "engineer",
+    "animated_secondary_initial_label": "software",
+    "animated_secondary_final_label": "ai",
+    "image": "/pfp.webp",
+    "email": "fr0ziisc2@gmail.com",
+    "url": "https://www.linkedin.com/in/david-ig/",
+    "summary": "Software Engineer. I work on Python and Typescript. Currently learning about AI, Web3 and DevOps.",
+    "theme": "red",
+    "location": {
+      "address": "Gran Canaria",
+      "city": "Las Palmas",
+      "countryCode": "ES",
+      "region": "Spain"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "icon": "ri:linkedin-fill",
+        "color": "#0066C2",
+        "username": "David Iglesias Guerra",
+        "url": "https://linkedin.com/in/david-ig"
+      },
+      {
+        "network": "Blog",
+        "icon": "ri:blogger-fill",
+        "color": "#F09740",
+        "username": "David Iglesias Guerra",
+        "url": "/neovim"
+      },
+      {
+        "network": "GitHub",
+        "icon": "mdi:github",
+        "color": "#929AAB",
+        "username": "fr0ziii",
+        "url": "https://github.com/fr0ziii"
+      },
+      {
+        "network": "Email",
+        "icon": "ri:mail-fill",
+        "color": "#D44638",
+        "username": "David Iglesias Guerra",
+        "url": "mailto:fr0ziisc2@gmail.com"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "Universidad de Las Palmas de Gran Canaria",
+      "url": "https://www.linkedin.com/company/teide-centros-de-formaci%C3%B3n/",
+      "area": "B.S. in Computer Science",
+      "studyType": "Full-time student",
+      "startDate": "2017-09-01",
+      "endDate": "2022-06-01"
+    },
+    {
+      "institution": "Charles University - Prague, Czech Republic",
+      "url": "https://www.linkedin.com/company/hospital-universitario-calixto-garcia/?originalSubdomain=cu",
+      "area": "Erasmus+ program",
+      "studyType": "Full-time student",
+      "startDate": "2019-9-01",
+      "endDate": "2020-6-01"
+    }
+  ],
+  "certificates": [],
+  "work": [
+    {
+      "name": "Lynx Tech",
+      "position": "Software Engineering Analyst",
+      "location_type": "Remote",
+      "location": "Madrid, ES",
+      "url": "https://www.linkedin.com/company/lynxtech-ai/",
+      "startDate": "2024-09-02",
+      "endDate": null,
+      "summary": "AI-driven software company specializing in detecting and predicting behavioral patterns to combat fraud and financial crime, offering cutting-edge solutions to top financial institutions, fintechs, and enterprises worldwide.",
+      "highlights": [
+        "Developed a data-intensive AI-driven project for internal use in the financial sector, focusing on managing complex data sets and implementing business logic."
+      ],
+      "responsibilities": [
+        "Bridging tech-business objectives by analysing requirements and specifications for agile delivery of solutions for banking institutions, ensuring compliance and security standards.",
+        "Developed and maintained projects, ensuring scalability, performance, clean code, efficient architecture and robust user experiences.",
+        "Collaborated with cross-functional teams of developers, designers, and project managers to deliver high-quality solutions."
+      ],
+      "achievements": [
+        "Developed scalable, real-time, AI-driven applications for fraud, money laundering and money mule prevention, achieving an 80% (VDR) for financial institutions, delivering high-value solutions"
+      ],
+      "skills": {
+        "TypeScript": "simple-icons:typescript",
+        "Angular": "simple-icons:angular",
+        "Python": "simple-icons:python",
+        "AWS": "simple-icons:amazonwebservices",
+        "Jasmine": "simple-icons:jasmine",
+        "Jest": "simple-icons:jest",
+        "Postman": "simple-icons:postman",
+        "Git": "mdi:git",
+        "GitLab": "mdi:gitlab",
+        "Kubernetes": "simple-icons:kubernetes",
+        "Docker": "simple-icons:docker"
+      }
+    },
+    {
+      "name": "Laude Canarias",
+      "position": "Full-Stack Developer",
+      "location_type": "Remote",
+      "location": "Las Palmas, ES",
+      "url": "https://www.linkedin.com/company/edosoft/",
+      "startDate": "2022-12-01",
+      "endDate": "2024-12-01",
+      "summary": "Laude Canarias is a technology solutions company with over 15 years of experience, focusing on cloud computing, artificial intelligence, and sustainable development, serving clients through innovative approaches and partnerships like Google Cloud in Spain.",
+      "highlights": [
+        "Developed within an agile team to design and deploy scalable, cloud-native applications on GCP, led the end-to-end development of key projects including e-learning platforms and logistics systems, and optimized workflows with CI/CD pipelines and Infrastructure-as-Code for enhanced efficiency and compliance."
+      ],
+      "responsibilities": [
+        "Designed, developed, and deployed full-stack, cloud-native applications on Google Cloud Platform, ensuring scalability, performance, and compliance with client requirements.",
+        "Collaborated with cross-functional agile teams, including developers, designers, and stakeholders, to deliver innovative solutions for public institutions and private clients.",
+        "Implemented and maintained CI/CD pipelines and Infrastructure-as-Code practices to streamline development workflows and enhance deployment efficiency.",
+        "Led the integration of front-end and back-end systems for projects like e-learning platforms, logistics management tools, and mobile apps, ensuring seamless functionality and robust user experiences.",
+        "Adopted emerging technologies rapidly to build secure, scalable, and efficient applications tailored to diverse business needs."
+      ],
+      "achievements": [
+        "Successfully led the end-to-end development of an e-learning platform, improving accessibility and scalability for public sector users.",
+        "Developed a logistics management system that optimized operational workflows, enhancing real-time tracking and resource allocation for clients.",
+        "Built a cloud security monitoring tool that improved threat detection capabilities, strengthening system resilience for a private client.",
+        "Enhanced deployment efficiency by 30% through the implementation of streamlined CI/CD pipelines and automated infrastructure provisioning.",
+        "Delivered mobile applications with highly reactive interfaces, boosting user engagement and satisfaction across multiple platforms."
+      ],
+      "skills": {
+        "Python":"simple-icons:python",
+        "Flask": "simple-icons:flask",
+        "FastAPI": "simple-icons:fastapi",
+        "GCP": "simple-icons:googlecloud",
+        "TypeScript": "simple-icons:typescript",
+        "Angular": "simple-icons:angular",
+        "NodeJS": "ri:nodejs-line",
+        "PHP": "simple-icons:php",
+        "Laravel": "simple-icons:laravel",
+        "MySQL": "simple-icons:mysql",
+        "PostgreSQL": "simple-icons:postgresql",
+        "MongoDB": "simple-icons:mongodb",
+        "Elasticsearch": "simple-icons:elasticsearch",
+        "Jasmine": "simple-icons:jasmine",
+        "Jest": "simple-icons:jest",
+        "Postman": "simple-icons:postman",
+        "Git": "mdi:git",
+        "GitLab": "mdi:gitlab",
+        "Kubernetes": "simple-icons:kubernetes",
+        "Docker": "simple-icons:docker"
+      }
+    },
+    {
+      "name": "Bitbox S.L.",
+      "position": "Full-Stack Developer",
+      "location_type": "On site",
+      "location": "Las Palmas, ES",
+      "url": "https://www.linkedin.com/company/bitbox-it/",
+      "startDate": "2022-08-14",
+      "endDate": "2022-12-01",
+      "summary": "Bitbox is a technology company, specializing in custom software development with a strong focus on the retail sector. They are dedicated to providing innovative and efficient solutions to enhance operational performance and customer experience for their clients.",
+      "responsibilities": [
+        "Designed, developed, and deployed a full-stack loyalty card management system for IKEA using Java, Spring Boot, and Scala, ensuring scalability and performance for a high-traffic application.",
+        "Integrated RESTful APIs to synchronize data across multiple IKEA retail locations, enabling real-time updates and seamless operations.",
+        "Collaborated with cross-functional teams to deliver a robust and efficient solution tailored to IKEA’s operational needs."
+      ],
+      "achievements": [
+        "Successfully launched a loyalty card management system serving over 3 million users, ensuring high availability and optimal performance.",
+        "Enhanced operational efficiency by improving data synchronization across IKEA retail locations, reducing the reliance on manual updates.",
+        "Streamlined processes by minimizing manual interventions, leading to a significant reduction in errors and increased productivity for IKEA."
+      ],
+      "skills": {
+        "Java": "ri:java-line",
+        "Spring": "simple-icons:spring",
+        "Scala": "simple-icons:scala",  
+        "React": "simple-icons:react",
+        "MySQL": "simple-icons:mysql",
+        "HTML5": "simple-icons:html5",
+        "CSS3": "ri:css3-fill",
+        "JavaScript": "simple-icons:javascript",
+        "Bootstrap": "simple-icons:bootstrap",
+        "NodeJS": "ri:nodejs-line",
+        "Postman": "simple-icons:postman",
+        "Jira": "simple-icons:jira",
+        "Git": "mdi:git"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "icon": "simple-icons:html5",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "icon": "ri:css3-fill",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "SCSS",
+      "icon": "simple-icons:sass",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "CSS Preprocessor",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "icon": "mdi:tailwind",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "CSS Framework",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "Bootstrap",
+      "icon": "simple-icons:bootstrap",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "CSS Framework",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "icon": "simple-icons:javascript",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "icon": "simple-icons:typescript",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Angular",
+      "icon": "simple-icons:angular",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Framework",
+        "UI"
+      ]
+    },
+    {
+      "name": "RxJS",
+      "icon": "simple-icons:reactivex",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Reactive Programming",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Vue",
+      "icon": "mdi:vuejs",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    },
+    {
+      "name": "Astro",
+      "icon": "simple-icons:astro",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "Node",
+      "icon": "ri:nodejs-line",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "JavaScript",
+        "Server"
+      ]
+    },
+    {
+      "name": "PNPM",
+      "icon": "simple-icons:pnpm",
+      "level": "Beginner",
+      "keywords": [
+        "Package Manager",
+        "Web Development",
+        "Frontend",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Java",
+      "icon": "ri:java-line",
+      "level": "Beginner",
+      "keywords": [
+        "Web Development",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Spring",
+      "icon": "simple-icons:spring",
+      "level": "Beginner",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Java Framework"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "icon": "simple-icons:mongodb",
+      "level": "Beginner",
+      "keywords": [
+        "Databases",
+        "File",
+        "Data Storage",
+        "Backend"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "icon": "simple-icons:mysql",
+      "level": "Beginner",
+      "keywords": [
+        "Backend",
+        "Databases",
+        "SQL",
+        "Relational Database"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "icon": "simple-icons:postgresql",
+      "level": "Beginner",
+      "keywords": [
+        "Backend",
+        "Databases",
+        "SQL",
+        "Relational Database"
+      ]
+    },
+    {
+      "name": "Git",
+      "icon": "mdi:git",
+      "level": "Advanced",
+      "keywords": [
+        "Version Control",
+        "Collaboration",
+        "Source Code"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "icon": "mdi:github",
+      "level": "Advanced",
+      "keywords": [
+        "Version Control",
+        "Collaboration",
+        "Source Code",
+        "Git"
+      ]
+    },
+    {
+      "name": "AWS",
+      "icon": "simple-icons:amazonaws",
+      "level": "Beginner",
+      "keywords": [
+        "Cloud Computing",
+        "Backend",
+        "Infrastructure"
+      ]
+    },
+    {
+      "name": "Docker",
+      "icon": "mdi:docker",
+      "level": "Beginner",
+      "keywords": [
+        "Virtual Environments",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Kubernetes",
+      "icon": "mdi:kubernetes",
+      "level": "Beginner",
+      "keywords": [
+        "Virtual Environments",
+        "Backend",
+        "Container Orchestration"
+      ]
+    },
+    {
+      "name": "Python",
+      "icon": "simple-icons:python",
+      "level": "Beginner",
+      "keywords": [
+        "Scripting",
+        "Automation",
+        "Web Development"
+      ]
+    },
+    {
+      "name": "Jest",
+      "icon": "simple-icons:jest",
+      "level": "Intermediate",
+      "keywords": [
+        "Testing",
+        "Web Development",
+        "Frontend",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Jasmine",
+      "icon": "simple-icons:jasmine",
+      "level": "Intermediate",
+      "keywords": [
+        "Testing",
+        "Web Development",
+        "Frontend",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Shell",
+      "icon": "simple-icons:shell",
+      "level": "Beginner",
+      "keywords": [
+        "Scripting",
+        "Automation"
+      ]
+    },
+    {
+      "name": "Linux",
+      "icon": "simple-icons:linux",
+      "level": "Beginner",
+      "keywords": [
+        "OS",
+        "Scripting",
+        "Automation"
+      ]
+    },
+    {
+      "name": "Swagger",
+      "icon": "simple-icons:swagger",
+      "level": "Beginner",
+      "keywords": [
+        "API",
+        "Documentation",
+        "Web Development",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Postman",
+      "icon": "simple-icons:postman",
+      "level": "Intermediate",
+      "keywords": [
+        "API",
+        "Testing",
+        "Web Development",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Figma",
+      "icon": "simple-icons:figma",
+      "level": "Beginner",
+      "keywords": [
+        "Prototyping",
+        "Web Development",
+        "Frontend"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced - B2/C1"
+    }
+  ]
+}
