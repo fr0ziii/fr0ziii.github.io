@@ -30,7 +30,7 @@
         "icon": "ri:blogger-fill",
         "color": "#F09740",
         "username": "David Iglesias Guerra",
-        "url": "/neovim"
+        "url": "/blog"
       },
       {
         "network": "GitHub",
@@ -45,6 +45,22 @@
         "color": "#D44638",
         "username": "David Iglesias Guerra",
         "url": "mailto:fr0ziisc2@gmail.com"
+      }
+    ],
+    "blog_links": [
+      {
+        "network": "Homepage",
+        "icon": "ri:home-4-fill",
+        "color": "#0066C2",
+        "username": "David Iglesias Guerra",
+        "url": "/"
+      },
+      {
+        "network": "Blog",
+        "icon": "ri:newspaper-line",
+        "color": "#0066C2",
+        "username": "David Iglesias Guerra",
+        "url": "/blog"
       }
     ]
   },

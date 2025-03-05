@@ -1,0 +1,126 @@
+---
+import { basics } from '@cv'
+import Section from '@/components/Section.astro'
+import { Icon } from 'astro-icon/components'
+
+---
+
+<Section>
+  <div class="min-w-[275px]">
+    <section
+      id="about"
+      aria-label="About me"
+      class="group flex gap-2 sm:-rotate-2 flex-col rounded-3xl bg-skin-muted sm:bg-skin-button-muted p-4 transition-all sm:hover:rotate-0 sm:hover:bg-skin-muted"
+    >
+      <div
+        class="flex items-center text-center gap-4"
+      >
+        <div class="flex flex-col items-center">
+          <h1 class="hover:hover-grad-text font-semibold">This is my blog</h1>
+          <div class="overflow-hidden mt-1">
+            <div class="font-roboto-condensed font-bold lowercase text-xl lg:text-[1rem] lg:leading-[1rem]">
+              <div class="group/subtitle relative flex gap-1 hover:gap-5 active:gap-5 transition-all">
+                <div class="transition-all duration-450 ease-in-out group-hover/subtitle:-translate-y-16">
+                  <p class="font-roboto-condensed font-medium lowercase text-xl lg:text-[1rem] lg:leading-[1rem]">
+                    i hope u like it
+                  </p>
+                </div>
+                <div class="absolute inset-x-0 top-0 w-max translate-y-16 transition-all duration-450 ease-in-out group-hover/subtitle:translate-y-0">
+                  <p class="font-roboto-condensed font-bold lowercase text-xl lg:text-[1rem] lg:leading-[1rem] bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+                    share
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class='flex gap-6 print:hidden'>
+        <div
+          aria-label="Social media"
+          class="flex group/social flex-wrap justify-evenly sm:h-40 sm:w-36 w-full h-min sm:flex-col rounded-3xl p-4 transition-all rotate-0 bg-skin-muted sm:bg-skin-button-muted sm:-rotate-2 sm:hover:rotate-0 sm:hover:bg-skin-muted"
+        >
+          {
+            basics.blog_links.map(({network, url, icon, color}) => {
+              return (
+                <a
+                  data-ccursor
+                  class="flex sm:basis-1/2 items-center justify-center rounded-md hover:cursor-none"
+                  href={url}
+                  rel="noreferrer noopener"
+                  aria-label={`${network} (opens in a new tab)`}
+                  data-umami-event={`${network} click`}
+                  id={network}
+                >
+                  <Icon name={icon} width={28} height={28} class='sm:grayscale sm:group-hover/social:grayscale-0 transition-all' style=`color: ${color};` aria-label={network}/>
+                </a>
+              )
+            })
+          }
+        </div>
+        <div
+          class="footer-button flex h-40 w-36 flex-col place-items-center rounded-3xl sm:bg-skin-muted p-4 transition-all rotate-0 bg-skin-muted sm:rotate-2 sm:hover:rotate-0 sm:hover:bg-skin-button-accent text-skin-hue sm:hover:text-skin-inverted max-sm:hidden print:hidden" data-ccursor="lift"
+        >
+          <Icon name='ri:command-fill' class='flex-1 w-1/2'/>
+          <p class="font-mono font-bold text-center">Open options</p>
+        </div>
+  </div>
+  <div class='flex gap-6 print:hidden'>
+  </div>
+
+</Section>
+
+<style>
+  .info {
+    @apply print:gap-0 print:pr-0;
+    
+    footer {
+      @apply flex gap-4;
+    }
+  }
+
+  h1 {
+    @apply text-4xl font-bold print:text-3xl;
+  }
+
+  h2 {
+    @apply text-balance text-base text-skin-muted print:text-lg;
+  }
+
+  img {
+    @apply aspect-square w-32 rounded-2xl bg-cover;
+  }
+
+  span {
+    @apply flex items-center gap-1 text-xs text-skin-hue;
+  }
+
+  footer {
+    @apply flex gap-1;
+  }
+  
+
+  @media (width <= 700px) {
+    .container {
+      flex-direction: column-reverse;
+    }
+
+    .info {
+      @apply pr-0 md:items-center md:justify-center;
+    }
+
+    figure {
+      @apply flex md:items-center md:justify-center;
+    }
+
+    h2 {
+      text-wrap: balance;
+    }
+
+    figure {
+      @apply md:mx-auto;
+    }
+  }
+</style>

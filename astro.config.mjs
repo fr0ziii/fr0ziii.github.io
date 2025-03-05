@@ -28,5 +28,8 @@ export default defineConfig({
   ],
   output: "hybrid",
   adapter: vercel(),
+  experimental: {
+    contentLayer: true,
+  },
   site: "https://davidiglesias.sh"
 });
