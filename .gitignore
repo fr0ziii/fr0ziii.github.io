@@ -32,3 +32,8 @@ public/favicon.ico
 
 # Vercel
 .vercel
+
+docs/
+memory-bank/
+.clinerules-*
+projectBrief.md
