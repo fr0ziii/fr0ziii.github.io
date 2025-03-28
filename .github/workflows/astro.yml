@@ -34,6 +34,12 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Check if dist directory exists
+        run: |
+          if [ ! -d "./dist" ]; then
+            echo "dist directory does not exist. Exiting."
+            exit 1
+          fi
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
