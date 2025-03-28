@@ -30,4 +30,5 @@ export default defineConfig({
   experimental: {
     contentLayer: true,
   },
+  site: "https://fr0ziii.github.io/", // Set to standard GitHub Pages URL
 });
