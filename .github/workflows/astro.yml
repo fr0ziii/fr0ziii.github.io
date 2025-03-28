@@ -49,7 +49,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire directory for GitHub Pages to serve files correctly
-          path: .vercel/output/static
+          path: dist # Default Astro build output directory
 
   deploy:
     needs: build

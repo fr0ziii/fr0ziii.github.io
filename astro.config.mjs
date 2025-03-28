@@ -4,7 +4,6 @@ import tailwind from "@astrojs/tailwind";
 import astroIcon from 'astro-icon';
 import mdx from '@astrojs/mdx';
 import playformCompress from "@playform/compress";
-import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
@@ -26,8 +25,8 @@ export default defineConfig({
       },
     })
   ],
-  output: "hybrid",
-  adapter: vercel(),
+  output: "static", // Changed from 'hybrid' for static site generation
+  // adapter: vercel(), // Removed Vercel adapter
   experimental: {
     contentLayer: true,
   },
