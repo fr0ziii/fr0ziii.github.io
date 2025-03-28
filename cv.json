@@ -26,13 +26,6 @@
         "url": "https://linkedin.com/in/david-ig"
       },
       {
-        "network": "Blog",
-        "icon": "ri:blogger-fill",
-        "color": "#F09740",
-        "username": "David Iglesias Guerra",
-        "url": "/blog"
-      },
-      {
         "network": "GitHub",
         "icon": "mdi:github",
         "color": "#929AAB",
