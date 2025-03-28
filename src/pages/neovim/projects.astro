@@ -1,12 +1,13 @@
 ---
 import Layout from '@layouts/Neovim.astro';
-import { projects } from "@cv";
+import type { Project } from "src/cv"; // Import the Project type
+import CV from "@cv"; // Import the whole CV object
 import { Icon } from 'astro-icon/components';
 ---
 
 <Layout title="Projects">
   <ul id="project-list">
-    {projects && projects.map(({ url, description, highlights, name, isActive, github, stack}) => {
+    {CV.projects && CV.projects.map(({ url, description, highlights, name, isActive, github }: Project) => { // Use CV.projects, add Project type, remove stack
       return (
         <li
           class="mb-6 project-item leading-6 nvim-line"
@@ -42,10 +43,10 @@ import { Icon } from 'astro-icon/components';
                 <span>〔GITHUB〕</span>
               </a>
             )}
-          </div>
+            </div>
             <div>
               {highlights && highlights.map(
-                (highlight) =>
+                (highlight: String) => // Add String type
                   <span class="text-gray-600">{highlight.slice(3)}. </span> //Slice to remove emojis, remove if you don't use emojis
               )}
             </div>
@@ -53,6 +54,7 @@ import { Icon } from 'astro-icon/components';
               {description}
             </p>
             
+            {/* Removed stack section as it's not in Project type or cv.json
             <ul class="flex print:hidden flex-wrap gap-2 mt-6" aria-label="Technologies used">
               {stack && Object.entries(stack).map(([label], index) => (
                 <li class=" cursor-default bg-transparent border-nvim-green/60 text-green flex items-center border-solid border rounded-md px-2 py-1 text-xs backdrop-blur-sm">
@@ -61,6 +63,7 @@ import { Icon } from 'astro-icon/components';
                 </li>
               ))}
             </ul>
+            */}
           </li>
       )
     })}

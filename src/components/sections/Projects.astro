@@ -1,15 +1,17 @@
 ---
 import Section from "../Section.astro";
 import { Icon } from "astro-icon/components";
+import type { Project } from "src/cv"; // Import the Project type
 
-import { projects } from "@cv";
+import CV from "@cv"; // Import the whole CV object
+// Note: CV.projects might be undefined based on cv.json content
 ---
 
 <Section className={Astro.props.className} title="Projects">
   <div class="grid grid-cols-1 gap-3 md:grid-cols-2 print:flex print:flex-col">
     {
-      projects && projects.map(
-        ({ url, description, highlights, name, isActive, github, stack }) => {
+      CV.projects && CV.projects.map( // Use CV.projects directly
+        ({ url, description, highlights, name, isActive, github }: Project) => { // Remove stack, keep Project type
           return (
             <div
               role="contentinfo"
@@ -58,11 +60,12 @@ import { projects } from "@cv";
                 {description}
               </p>
               <ul class='z-10 mt-1 text-sm'>
-                {highlights.map((highlight) => {
+                {highlights.map((highlight: String) => { // Change to String (capital S)
                   return <li data-ccursor class="w-max">{highlight}</li>;
                 })}
               </ul>
               
+              {/* Removed stack section as it's not in Project type or cv.json
               <ul class="flex print:hidden flex-wrap gap-2 mt-4" aria-label="Technologies used">
                 {stack && Object.entries(stack).map(([label, icon]) => (
                   <li data-ccursor="lift" class="border-skin-hue/60 text-skin-hue print:p-0 print:bg-transparent print:text-zinc-800 flex gap-1 items-center border-solid print:border-none border rounded-md px-2 py-0.5 text-xs backdrop-blur-sm group/stack">
@@ -74,6 +77,7 @@ import { projects } from "@cv";
                   </li>
                 ))}
               </ul>
+              */}
             </div>
           );
         },

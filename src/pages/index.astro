@@ -1,15 +1,15 @@
 ---
 import Layout from "@layouts/Layout.astro";
 
-import About from "@/components/sections/About.astro";
+// import About from "@/components/sections/About.astro"; // Removed unused import
 import Experience from "@/components/sections/Experience.astro";
 import Hero from "@/components/sections/Hero.astro";
-import Projects from "@/components/sections/Projects.astro";
+// import Projects from "@/components/sections/Projects.astro"; // Removed unused import
 import Skills from "@/components/sections/Skills.astro";
 import KeyboardManager from "@/components/KeyboardManager.astro";
 import ThemeSwitch from "@/components/ThemeSwitch.astro";
 
-import CV, { basics } from "@cv";
+import { basics } from "@cv"; // Removed unused CV import
 import Education from "@/components/sections/Education.astro";
 import NeovimButton from "../components/neovim/Button.astro";
 const { name} = basics;
