@@ -30,5 +30,4 @@ export default defineConfig({
   experimental: {
     contentLayer: true,
   },
-  site: "https://davidiglesias.sh"
 });
